@@ -11,7 +11,7 @@ package list_test_mvc;
 	@Controller
 	public class MainController {
 
-		@RequestMapping(value = "/", method = RequestMethod.GET)
+		@RequestMapping(value = "bla/", method = RequestMethod.GET)
 		public ModelAndView getdata() {
 
 			List<String> list = getList();
